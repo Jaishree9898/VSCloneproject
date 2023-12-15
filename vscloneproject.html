@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex p-2 items-center bg-slate-800">
+
+        <ul class="flex m-5 space-x-5 items-center text-white">
+            <li><img class="h-12 w-12" src="./VS logo.png" alt=""></li>
+            <li class="items-center">Visual Studio Code</li>
+        </ul>
+
+        <ul class="flex m-5 space-x-5 pr-40 align-middle text-gray-400">    
+            <li>Docs</li>
+            <li>Updates</li>
+            <li>Blog</li>
+            <li>API</li>
+            <li>Extensions</li>
+            <li>FAQ</li>
+            <li>Learn</li>
+        </ul>
+
+        <ul class="flex space-x-5 items-center">    
+            <li><img class="absolute items-end" src="./icons8-search-32.png" alt=""><input class="py-2 px-4 bg-slate-600" type="Search" placeholder="                Search Docs" name="Search"></li>
+            <li><img class="absolute" src="./icons8-download-24.png" alt=""><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 p-4">Download</button></li>
+        </ul>
+    </nav>
+
+    <p class="text-center bg-slate-950 text-white p-2"><u class="text-blue-600">Version 1.84</u>  is now available! Read about the new features and fixes from October.</p>
+    <span class="flex bg-slate-800 space-x-5">
+    <div>
+        <p class="mt-20 text-white text-6xl whitespace-nowrap mx-10">Code editing.</p>
+        <p class="text-white text-6xl ml-20 mb-6">Redefined.</p>
+        <p class="text-white mt-6 ml-10">Free. Built on open source. Runs everywhere.</p>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 text-white ml-10 mr-1 mt-10 mb-6"><b>Download for Windows</b><small> Stable Build</small></button><button class="bg-blue-500 hover:bg-blue-700 py-1 px-2"><img class="h-8 w-8" src="./Drop Down.png" alt=""></button>
+        <p class="align-middle align-center ml-10 mb-6 bg-slate-900 text-blue-600 hover:underline">Web, Insiders edition, or other platforms</p>
+        <p class="text-white ml-12">By using VS Code, you agree to its</p>
+        <p class="ml-20 text-blue-500" ><small>license and privacy statement</small></p>
+    </div>
+
+    <div>
+        <img class="h-800 w-800 mr-20" src="./home-screenshot-win.png" alt="">
+    </div>
+</span>
+
+
+<div class="flex mt-20 ml-20 mr-10 mb-20">
+    
+    <img class="h-40 w-40 mr-40" src="./icons8-light-bulb-25.png" alt="">
+    <img class="h-40 w-40 mr-40" src="./icons8-right-arrow-50.png" alt="">
+    <img class="h-40 w-40 mr-40" src="./icons8-merge-git-64.png" alt="">
+    <img class="h-40 w-40 mr-40" src="./extensions.png" alt="">
+</div>
+
+<span class="flex mb-20 mt-20 p-20 bg-slate-100">
+    <div class="mr-10 ml-10">
+        <img src="./left arrow.png" alt="">
+    </div>
+
+    <div>
+        <img class="h-12 w-12 mr-10 ml-10" src="./IMG_4287.JPG" alt="">
+        <p>Una Kravets @Una</p>
+        <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+    </div>
+
+    <div>
+        <img class="h-12 w-12 mr-10 ml-10" src="./IMG_4287.JPG" alt="">
+        <p>Jonathan Dunlap @jadbox</p>
+        <p>VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+    </div>
+
+    <div>
+        <img class="h-12 w-12 mr-10 ml-10" src="./IMG_4287.JPG" alt="">
+        <p>Pavithra Kodmad @PKodmad</p>
+        <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+    </div>
+
+    <div>    
+    <img src="./Right Arrow.png" alt="">
+    </div>
+</span>
+
+    <div class="flex m-20">
+        <img src="./home-intellisense.png" alt="">
+        <div><h1 class="whitespace-nowrap text-2xl mr-50 mb-10 ml-10">Meet IntelliSense.</h1>
+        <p class="mr-10 ml-10 text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p></div>
+    </div>
+
+    <div class="flex mb-20 mt-20 p-20 bg-slate-100">
+       <div><h1 class="whitespace-nowrap text-2xl mr-50 mb-10 ml-10">Print statement debugging is a thing of the past.</h1>
+        <p class="mr-10 ml-10 text-lg">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p></div>
+        <img src="./home-debug.png" alt="">
+    
+    </div>
+
+    <div class="flex m-20">
+        <img src="./home-git.png" alt="">
+        <div><h1 class="whitespace-nowrap text-2xl mr-50 ml-10 mb-10">Git commands built-in.</h1>
+        <p class="mr-10 ml-10 text-lg">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+    </div>
+    </div>
+
+    <div class="flex mb-20 mt-20 p-20 bg-slate-100">
+        <div><h1 class="text-2xl whitespace-nowrap mb-10 ml-10">Extensible and customizable.</h1>
+        <p class="mr-10 ml-10 text-lg">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. Learn more about extensions.</p></div>
+        <img class="h-80 w-80" src="./Hundreds-of-Extensions.png" alt="">
+    </div>
+
+    <div class="flex m-20">
+        <img src="./home-azure.png" alt="">
+        <div>
+            <h1 class="text-2xl whitespace-nowrap mb-10 ml-10 ">Deploy with confidence and ease</h1>
+            <p class="mr-10 ml-10 text-lg" >With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.</p>
+        </div>
+    </div>
+
+        <span>
+   
+        <h1 class="text-4xl text-center mb-10">VS Code for</h1>
+
+        <div>
+            <ul class="flex place-content-center">
+                <li class="flex p-10"><img src="./javascript.png" alt=""><p>JavaScript</p></li>
+                <li class="flex p-10"><img src="./python.png" alt=""><p>Python</p></li>
+                <li class="flex p-10" ><img src="./java.png" alt=""><p>Java</p></li>
+                <li class="flex p-10"><img src="./markdown.png" alt=""><p>Markdown</p></li>
+                <li class="flex p-10"><img src="./typescript.png" alt=""><p>TypeScript</p></li>
+                <li class="flex p-10"><img src="./cpp.png" alt=""><p>C/C++</p></li>
+            </ul>  
+            <ul class="flex place-content-center"> 
+                <li class="flex p-10"><img src="./json.png" alt=""><p>JSON</p></li>
+                <li class="flex p-10"><img src="./powershell.png" alt=""><p>Powershell</p></li>
+                <li class="flex p-10"><img src="./html.png" alt=""><p>HTML/CSS</p></li>
+                <li class="flex p-10"><img src="./cpp.png" alt=""><p>C#</p></li>
+                <li class="flex p-10"><img src="./php.png" alt=""><p>PHP</p></li>
+                <li class="flex p-10"><img src="./yaml.png" alt=""><p>YAML</p></li>
+            </ul>
+        </div>
+        <p class="text-blue-600 text-lg text-center">and many more languages on the Marketplace...</p>
+
+        <button class=" bg-blue-500 hover:bg-blue-500 text-white py-3 px-8 ">Get Started Now</button>
+        </span>
+
+
+        <span class="flex p-20 mr-20">
+            <ul >
+                <li class="h-40 w-40"><img src="./windows-logo.png" alt=""></li>
+                <li><button><img src="./icons8-download-24.png" alt="">Windows<p class="font-xs">Windows 10,11</p></button></li>
+                <li>User Installer<small>x64</small> <small>Arm64</small></li>
+                <li>System Installer<small>x64</small> <small>Arm64</small></li>
+                <li>.zip <small>x64</small> <small>Arm64</small></li>
+                <li>CLI <small>x64</small> <small>Arm64</small></li>
+            </ul>
+
+            <ul>
+                <li class="h-40 w-40 ml-10 mr-10 p-4"><img src="./linux-logo.png" alt=""></li>
+                <li class="h-40 w-40 ml-10 mr-10"><button><img src="./icons8-download-24.png" alt="">.deb <p>Debian, Ubuntu</p></button> <button><img src="./icons8-download-24.png" alt="">.rpm <p>Red Hat, Fedora, SUSE</p></button></li>
+                <li>.deb <small>x64</small> <small>Arm64</small></li>s
+                <li>.rpm <small>x64</small> <small>Arm64</small></li>
+                <li> .tar.gz<small>x64</small> <small>Arm64</small></li>
+                <li> Snap <small>Snap Store</small></li>
+                <li>CLI <small>x64</small> <small>Arm32</small> <small>Arm64</small></li>
+            </ul>
+
+            <ul> 
+                <li class="h-40 w-40 ml-10 mr-10 p-4"><img src="./apple-logo.svg" alt=""></li>
+                <li><button><img src="./icons8-download-24.png" alt=""><p>Mac</p> <p>macOS 10.15+</p></button></li>
+                <li>.zip <small>Intel chip</small> <small>Apple silicon</small> <small>Universal</small></li>
+                <li>CLI <small>Intel chip</small> <small>Apple silic</small></li>
+            </ul>
+        </span> 
+
+        <div class="flex place-content-center mb-20 mr-20">
+            <ul>            
+                <h1 class="mr-20">Want new features sooner?</h1>
+                <p>Get the Insiders build instead.</p>
+            </ul>
+
+            <ul>
+                <h1>Use vscode.dev for quick edits online! </h1>
+                <p>GitHub, Azure Repos, and local files.</p>
+            </ul>
+        </div>
+            <div>
+                <h3 class="text-center text-bold">License and Privacy Terms</h3>
+                <small class="whitespace-pre-line">By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it. Third party licenses for the CLI can be found here.</small>
+            </div>
+        
+
+
+        <nav class="flex list-none m-4 text-white bg-slate-900 p-6">
+            <div class="mr-40">
+                <ul class="whitespace-nowrap flex">
+                <li class="whitespace-nowrap">Hello from Seattle.</li>
+                <li class="whitespace-nowrap">Follow @code</li>
+                <li><small>Star</small></li>
+                <li><small>153,059</small></li>
+            </ul>
+            </div>
+
+            <div>
+                <ul class="flex whitespace-nowrap p-4">
+                <li>Support</li>    
+                <li>Privacy</li>
+                <li>Terms of Use</li>
+                <li>License</li>
+        
+            </ul>
+            </div>
+        </nav>
+
+</body>
+</html>
+
+

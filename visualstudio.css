@@ -1,0 +1,453 @@
+/* Universal Part Start */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* Universal Part End */
+
+/* nav 1 start */
+.logo{
+    height: 5vh;
+    width:5vh;
+}
+
+.nav1{
+   display: flex;
+   white-space: nowrap;
+   align-items: center;
+   background-color: #2c2c32;;
+   color: white;
+   gap: 5%;
+   
+}
+
+.vscode{
+    color: white;
+    font-size: 20px;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
+.ul1{
+    color: #9d9d9d;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 5%;
+    margin-left: -20%;
+    
+}
+
+.ul1 li:hover{
+    color: white;
+}
+
+.div1{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 5%;
+    margin-left: 5%;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    padding: 8px;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    padding: 0%;
+    gap: 0%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+
+.div3{
+    align-items: center;
+    justify-self: center;
+}
+   
+
+.search{
+    border: none;
+    padding: 20px;
+    background-color:rgba(255,255,255,.08);
+    position: relative;
+    }
+
+.div2 input:hover{
+    background-color:rgba(105, 91, 91, 0.08);
+    
+}
+
+.download{
+    border: none;
+    padding: 15px 40px 15px 40px;
+    background-color: #0071bc;
+    font-size: 16px;
+    color: white;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    align-items: center;
+    position: relative;
+
+}
+
+.div2 .download:hover{
+    background-color: #03548a;
+}
+
+.lip1{
+    padding: 0%;
+}
+
+.searchicon{
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    margin-left: 7px;
+    height: 4vh;
+    width: 4vh;
+  }
+
+  .icondownload{
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    position: absolute;
+    margin-left: -15%;
+    }
+
+    /* nav 1 end */
+
+/* para 1 start */
+
+.para1{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 16px;
+    display: block;
+    padding: 1%;
+    background-color: #25252b;
+    color: #ccc;
+}
+
+.version{
+    color: #0098ff;
+    text-decoration: underline;
+
+    }
+
+.version:hover{
+      text-decoration: none;
+
+}    
+/* para 1 end */
+
+/* 3rd part start*/
+
+.div3 h1{
+    grid-column-start: auto;
+    font-size: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.h2{
+    font-weight: 50;  
+    }
+
+.h3{
+    font-weight: 500;
+    margin-left: 26px;
+
+}
+
+.div4{
+    margin-left: -25px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+    background-color: #2c2c32;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span1 {
+    padding: 2%;
+    line-height: 1.2;
+}
+
+.scrshot{
+
+    max-width: 750px;
+    margin-right: -30px;
+    margin-left: 50px;
+}
+
+.div4{
+    line-height: 2.8;
+    color: rgba(255,255,255,.6);
+}
+
+.div5 .btn{
+    border: none;
+    background-color: #0071bc;
+    color: white;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    font-size: larger;
+}
+
+.div5 .btn:hover{
+    background-color: #034775;
+}
+
+.div5 .btn2{
+    border: none;
+    background-color: #0071bc;
+    align-items: center;
+    padding: 20px 20px 43px 20px;
+    margin-left: -3px;
+    justify-content: center;
+}
+
+.div5 .btn2:hover{
+    background-color: #034775;
+}
+
+.div5 .btn p{
+    margin: 0%;
+}
+
+.div6{
+    white-space: nowrap;
+    display:inline-block;
+}
+
+.div6{
+    margin: 8px;
+    display: flex;
+    gap: 4px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: smaller;
+    background-color: black;
+    margin: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+}
+
+.div6 a{
+    color: #0098ff;
+    text-decoration: none;
+}
+
+.div6 p{
+    color: #9d9d9d;
+}
+
+.div6 a:hover{
+   
+    color: #0071bc;
+    text-decoration: underline;
+}
+
+.div7{
+    margin-left:50px;
+    font-size: smaller;
+    color: #9d9d9d;
+}
+
+.div7 a{
+    color: #0098ff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.div7 a:hover{
+   
+    color: #0071bc;
+    text-decoration: underline;
+}
+
+/* 3rd part end  */
+
+/* 2nd page start */
+
+.sec2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+.sec2 span div p{
+    font-size: larger;
+}
+
+.sec2 span div img{
+    height: 13vh;
+    width: 13vh;
+}
+
+.sec2 span{
+    padding: 2% 5%;
+}
+
+.blackbulb{
+    position: relative;
+}
+
+.bluebulb{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0%;
+    right: 0%;
+}
+
+
+.blackbulb:hover .bluebulb{
+    display: block;
+   }
+
+.sec2 span:hover{
+    background-color: whitesmoke;
+    }
+
+
+.rarrow{
+    position: relative;
+}
+
+.garrow{
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+
+.rarrow:hover .garrow{
+    display: block;
+   
+}
+
+.git{
+    position: relative;
+   
+}
+
+.redgit{
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+
+.git:hover .redgit{
+    display: block;
+   
+}
+
+
+.ex{
+    position: relative;
+    }
+
+.darkex{
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+
+.ex:hover .darkex{
+    display: block;
+   
+
+}
+
+/* 2nd page end *
+
+/* 3rd page start */
+.sec3{
+    display: flex;
+    padding: 8% 6%;
+    background-color: whitesmoke;
+    gap: 4%;
+
+}
+
+.sec3 div ul{
+    display: flex;
+    gap: 1%;
+}
+
+.sec3 .profilepic{
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.sec3 .arrow{
+    height: 5vh;
+    width: 5vh;
+    margin-top: 150%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.sec3 div ul li .name{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    font-size: medium;
+}
+
+.sec3 div ul li small{
+    color: rgb(158, 153, 153);
+    font-weight: lighter;
+}
+
+.sec3 div ul li .comment{
+    font-size: large;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: rgb(158, 153, 153);
+}
+
+.sec3 div ul li a{
+    color: #0071bc;
+    text-decoration: none;
+}
+/* 3rd page end */
+
+/* sec start */
+
+
+
+/* sec end */
